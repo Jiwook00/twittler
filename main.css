@@ -1,0 +1,139 @@
+#title {
+  font-family: "Pangolin",sans-serif;
+  font-size: 40px;
+  text-align: center;
+  color: beige;
+  
+ }  
+
+ body {
+   height: 100%;
+   
+ }
+
+.wrapper {
+   display: grid;
+   grid-template-columns: auto 350px auto;
+   grid-template-rows: 50px 10px 1px 237px 0px 45px auto 150px;
+   height: 900px;
+}
+
+ #inputusername {
+
+   border-radius: 7px;
+ }
+
+  #inputComment {
+    border-radius: 7px;
+  }
+
+.grid1 {
+   grid-column: 2/3;
+   grid-row: 1/2;
+  
+   display: inline-block;
+   background-color: #F3553C;;
+   border-radius: 10px;
+  
+}
+
+
+
+.grid2 {
+   grid-column: 2/3;
+   grid-row: 4/5;
+   margin-bottom: 16px;
+   display: inline-block;
+   background-color:#ffb85a; 
+   border-radius: 10px;
+   font-family: "Roboto",sans-serif;
+}
+
+.grid3 {
+   grid-column: 2/3;
+   grid-row: 6/7;
+   display: inline-block;
+   background-color: #F3553C;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+
+}
+
+.grid4 {
+   grid-column: 2/3;
+   grid-row: 7/8;
+   padding: 4px;
+   position: relative;
+   display: inline-block;
+   background-color: #EEB3A3;/* #EEB3A3; */
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+   font-family: "Roboto",sans-serif;
+
+   overflow: auto;
+
+   
+   
+}
+
+/*display: inline-block;
+   position: relative;
+   background-color #F3553C; */
+
+#commentbox {
+   width: 200px;
+   height: 100px;
+   display: inline-block;
+}
+#tweetbutton {
+     background-color: #642A02;
+     border-radius: 5px;
+     border: none;
+     color: beige;
+     padding: 10px 20px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+     margin: 4px 2px;
+     cursor: pointer;
+     font-family: "Roboto",sans-serif;
+  
+   }
+#checktweetbutton, #backchecktweetbutton{
+     background-color: #642A02;
+     border-radius: 5px;
+     border: none;
+     color: beige;
+     padding: 5px 10px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+     margin: 4px 2px;
+     cursor: pointer;
+     padding-top: 3px;
+     padding-left: 12px ;
+     font-family: "Roboto",sans-serif;
+}
+
+
+.absolute {
+   position: absolute;
+   right: 10px;
+}
+li {
+list-style-type: none;
+}
+
+ul {
+ padding-left: 0px;
+ margin-top: 3px;
+}
+
+.space{
+  padding-left: 8px;
+  padding-top: 9px;
+}
+
+

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>twittler</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  <script src="data.js"></script>
+</head>
+<body>
+  <!-- 여기에 HTML 구조를 작성하세요. 아래 코드는 예제이며, 얼마든지 바꿀 수 있습니다   <div id="greeting">twittler</div>
+  <div id="test"></div>
+-->
+<div class="wrapper">
+  <div id="title" class="grid1">   twittler </div>
+
+
+
+ <div class="grid2" >
+     <div class="space"> 
+         <div>
+             <span>username</span>
+             <br><input id="inputusername" type="text">
+             </div>
+                 <div>
+                     <span>comment</span>
+                     <br><textarea id="inputComment" cols="38" rows="5" placeholder="'What are you doing'" style="resize: none; text-indent: 2px;"></textarea> 
+                 </div>
+             <div>
+             <button id="tweetbutton">tweet!</button>
+         </div>
+     </div>
+ </div>
+
+
+   <div class="grid3">
+       <div class="space"> 
+            <button id="checktweetbutton">check new tweet</button> <button id="backchecktweetbutton">back</button>
+       </div>    
+  </div>
+
+
+
+     <div class="grid4">
+          <div class="space">   
+               <ul id="tweetAllcomment">
+                   <li class="aComment"> 
+                       <div class="absolute date">2019-01-03 12:30:20</div>
+                          <div class="username">ingikim</div> 
+                               <div class="content">
+                                Welcome to Code States #codestates
+                                     <hr> </div>
+                         
+                     </li> 
+
+                   <li class="aComment">
+                       <div>
+                        <div class="absolute data">2019-01-04 18:30:20</div>
+                           <div class="username">satya</div> 
+                               </div>
+                            <div class="content"> 
+                              this is test message #pair #programming
+                          <hr> </div>
+                  </li> 
+                  
+                  <li class="aComment">
+                    <div>
+                     <div class="absolute data">2019-01-05 07:30:20</div>
+                        <div class="username">sundar</div> 
+                            </div>
+                         <div class="content"> 
+                          code now! #work #hard
+                       <hr> </div>
+                   </li> 
+  
+                   <li class="aComment">
+                    <div>
+                     <div class="absolute data">2015-01-03 12:30:20</div>
+                        <div class="username">steve</div> 
+                            </div>
+                         <div class="content"> 
+                          Stay hungry, and stay foolish
+                           <hr> </div>
+                    </li> 
+    
+               <li class="aComment">
+                <div>
+                 <div class="absolute data">2019-01-04 18:30:20</div>
+                    <div class="username">tim</div> 
+                        </div>
+                     <div class="content"> 
+                      education for real world
+                   <hr> </div>
+                  </li> 
+                    
+              </ul>
+           </div>
+
+        </div>
+</div>
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
